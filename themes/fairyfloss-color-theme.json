@@ -172,6 +172,147 @@
 				"background": "#AE81FF",
 				"foreground": "#F8F8F0"
 			}
+		},
+		{
+			"name": "diff: header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#FFF352"
+			}
+		},
+		{
+			"name": "diff: deleted",
+			"scope": "markup.deleted",
+			"settings": {
+				"foreground": "#fa736e"
+			}
+		},
+		{
+			"name": "diff: changed",
+			"scope": "markup.changed",
+			"settings": {
+				"foreground": "#fa9d99"
+			}
+		},
+		{
+			"name": "diff: inserted",
+			"scope": "markup.inserted",
+			"settings": {
+				"foreground": "#afecad"
+			}
+		},
+		{
+			"name": "Markup Quote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#FF857F"
+			}
+		},
+		{
+			"name": "Markup Styling Bold",
+			"scope": "markup.bold",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#C2FFDF"
+			}
+		},
+		{
+			"name": "Markup Styling Italic",
+			"scope": "markup.italic",
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#C2FFDF"
+			}
+		},
+		{
+			"name": "Markup Inline",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#FFF352"
+			}
+		},
+		{
+			"name": "Markup Header",
+			"scope": "markup.heading.markdown",
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#ddbb88"
+			}
+		},
+		{
+			"name": "Source PHP Embedded Begin/End",
+			"scope": [
+				"text.html.php punctuation.section.embedded.begin.php",
+				"text.html.php punctuation.section.embedded.end.php"
+			],
+			"settings": {
+				"foreground": "#d5c6f0"
+			}
+		},
+		{
+			"name": "Source Java This",
+			"scope": [
+				"source.java variable.language.this.java"
+			],
+			"settings": {
+				"foreground": "#d5c6f0"
+			}
+		},
+		{
+			"name": "Source Java Storage Modifier Import",
+			"scope": [
+				"source.java storage.modifier.import",
+				"source.java storage.modifier.package"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#dda0b4"
+			}
+		},
+		{
+			"name": "Javadoc keywords",
+			"scope": "source.java keyword.other.documentation.javadoc.java",
+			"settings": {
+				"foreground": "#9966b8"
+			}
+		},
+		{
+			"name": "Clojure locals",
+			"scope": "source.clojure meta.symbol",
+			"settings": {
+				"foreground": "#beb0cc"
+			}
+		},
+		{
+			"name": "Clojure namespace",
+			"scope": [
+				"source.clojure entity.global",
+				"source.clojure meta.definition.global"
+			],
+			"settings": {
+				"foreground": "#df7e9f"
+			}
+		},
+		{
+			"name": "Clojure keyword",
+			"scope": "source.clojure constant.keyword",
+			"settings": {
+				"foreground": "#c19fd8"
+			}
+		},
+		{
+			"name": "Clojure namespace",
+			"scope": [
+				"source.clojure meta.symbol meta.expression",
+				"source.clojure meta.vector"
+			],
+			"settings": {
+				"foreground": "#df7e9f"
+			}
 		}
 	],
 	"colors": {
@@ -182,19 +323,16 @@
 		"editor.lineHighlightBackground": "#716799",
 		"editor.selectionBackground": "#8077A8",
 		"editorLineNumber.foreground": "#F8F8F2",
-
 		"sideBar.background": "#514C66",
 		"sideBar.dropBackground": "#464258",
 		"sideBar.foreground": "#F8F8F2",
 		"activityBar.background": "#464258",
-
 		"tab.inactiveBackground": "#464258",
 		"tab.inactiveForeground": "#F8F8F2",
 		"tab.border": "#464258",
 		"editorGroupHeader.noTabsBackground": "#464258",
 		"editorGroup.border": "#464258",
 		"editorGroupHeader.tabsBackground": "#464258",
-
 		"list.activeSelectionBackground": "#716799",
 		"list.activeSelectionForeground": "#F8F8F2",
 		"list.inactiveSelectionBackground": "#716799",
@@ -204,14 +342,12 @@
 		"list.inactiveFocusBackground": "#7D7796",
 		"list.inactiveFocusForeground": "#F8F8F2",
 		"list.dropBackground": "#7D7796",
-
 		"statusBar.background": "#9673D3",
 		"statusBar.foreground": "#F8F8F2",
 		"statusBar.debuggingBackground": "#CE894D",
 		"statusBar.debuggingForeground": "#F8F8F2",
 		"statusBar.noFolderBackground": "#9673D3",
 		"statusBar.noFolderForeground": "#F8F8F2",
-
 		"button.background": "#AD5877",
 		"button.foreground": "#F8F8F2",
 		"input.background": "#464258",
@@ -225,17 +361,14 @@
 		"badge.foreground": "#F8F8F2",
 		"activityBarBadge.background": "#AD5877",
 		"activityBarBadge.foreground": "#F8F8F2",
-
 		"errorForeground": "#F8F8F2",
 		"notification.background": "#464258",
 		"notification.foreground": "#F8F8F2",
 		"notification.buttonBackground": "#AD5877",
 		"notification.buttonForeground": "#F8F8F2",
-
 		"textLink.activeForeground": "#DBA6BA",
 		"textLink.foreground": "#C990A5",
 		"editorLink.activeForeground": "#C990A5",
-
 		"titleBar.activeBackground": "#464258",
 		"titleBar.activeForeground": "#F8F8F2",
 		"titleBar.inactiveBackground": "#3a3553",
