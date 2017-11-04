@@ -1,5 +1,22 @@
-# README
-## fairyfloss
-This theme is based off of the theme by sailorhg on github. https://github.com/sailorhg/fairyfloss
+# fairyfloss
+All credit goes to sailorhg on github for their awesome theme [fairyfloss](https://github.com/sailorhg/fairyfloss)!✨
 
-**Enjoy!**
+I'm responsible for everything outside of the syntax general syntax highlighting.
+
+Languages with modifications specific to vscode:
+
+* Markdown
+* Java
+* Clojure
+
+Please report any issues with syntax highlighting or ideas to improve anything!
+
+## Screenshot
+
+![screenshot](https://github.com/nopjmp/vscode-fairyfloss/blob/master/assets/fairyfloss.png?raw=true)
+
+## Additional resources
+
+- [Fira Code]() with ligatures enabled
+
+**Please Enjoy!**

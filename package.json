@@ -2,7 +2,7 @@
     "name": "fairyfloss",
     "displayName": "fairyfloss",
     "description": "fairy floss text editor theme by sailorhg - http://sailorhg.github.io/fairyfloss",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "nopjmp",
     "engines": {
         "vscode": "^1.17.0"
@@ -18,5 +18,19 @@
                 "path": "./themes/fairyfloss-color-theme.json"
             }
         ]
-    }
+    },
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/nopjmp/vscode-fairyfloss.git"
+    },
+    "keywords": [
+		"vs-code",
+		"theme",
+		"fairyfloss"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/nopjmp/vscode-fairyfloss/issues"
+    },
+    "icon": "assets/icon.png"
 }
