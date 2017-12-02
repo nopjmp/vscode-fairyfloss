@@ -17,6 +17,6 @@ Please report any issues with syntax highlighting or ideas to improve anything!
 
 ## Additional resources
 
-- [Fira Code]() with ligatures enabled
+- [Fira Code](https://github.com/tonsky/FiraCode) with ligatures enabled
 
 **Please Enjoy!**
