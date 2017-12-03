@@ -1,6 +1,5 @@
 {
-	"tokenColors": [
-		{
+	"tokenColors": [{
 			"settings": {
 				"foreground": "#F8F8F2"
 			}
@@ -79,6 +78,15 @@
 			"settings": {
 				"fontStyle": "underline",
 				"foreground": "#FFF352"
+			}
+		},
+		{
+			"name": "This",
+			"scope": [
+				"variable.language.this"
+			],
+			"settings": {
+				"foreground": "#d5c6f0"
 			}
 		},
 		{
@@ -245,15 +253,6 @@
 			"scope": [
 				"text.html.php punctuation.section.embedded.begin.php",
 				"text.html.php punctuation.section.embedded.end.php"
-			],
-			"settings": {
-				"foreground": "#d5c6f0"
-			}
-		},
-		{
-			"name": "Source Java This",
-			"scope": [
-				"source.java variable.language.this.java"
 			],
 			"settings": {
 				"foreground": "#d5c6f0"
