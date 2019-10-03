@@ -309,7 +309,17 @@
 			"settings": {
 				"foreground": "#df7e9f"
 			}
-		}
+		},
+		{
+			"name": "Python cls, self",
+			"scope": [
+				"source.python variable.language.special.self.python",
+				"source.python variable.language.special.cls.python"
+			],
+			"settings": {
+				"foreground": "#FF857F"
+			}
+		},
 	],
 	"colors": {
 		"editor.background": "#5A5475",
