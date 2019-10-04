@@ -8,6 +8,7 @@ Languages with modifications specific to vscode:
 * Markdown
 * Java
 * Clojure
+* Python
 
 Please report any issues with syntax highlighting or ideas to improve anything!
 
