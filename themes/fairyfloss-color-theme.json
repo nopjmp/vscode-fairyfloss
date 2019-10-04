@@ -379,6 +379,8 @@
 		"editorRuler.foreground": "#A8757B",
 		"editor.lineHighlightBackground": "#716799",
 		"editor.selectionBackground": "#8077A8",
+		"editor.findMatchHighlightBackground":"#AD5877",
+		"editor.findMatchBackground":"#464258",
 		"editorLineNumber.foreground": "#F8F8F2",
 		"sideBar.background": "#514C66",
 		"sideBar.dropBackground": "#464258",
