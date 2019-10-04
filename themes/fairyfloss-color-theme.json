@@ -320,6 +320,35 @@
 				"foreground": "#FF857F"
 			}
 		},
+		{
+			"name": "Python docstring",
+			"scope": [
+				"source.python string.quoted.docstring.multi.python",
+			],
+			"settings": {
+				"foreground": "#E6C000"
+			}
+		},
+		{
+			"name": "Python function name that matches builtins",
+			"scope": [
+				"source.python meta.function.python support.function.builtin.python",
+			],
+			"settings": {
+				"foreground": "#FFF352"
+			}
+		},
+		{
+			"name": "Python logical operator",
+			"scope": [
+				"source.python keyword.operator.logical.python",
+				"source.python keyword.operator.comparison.python"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#C2FFDF"
+			}
+		},
 	],
 	"colors": {
 		"editor.background": "#5A5475",
