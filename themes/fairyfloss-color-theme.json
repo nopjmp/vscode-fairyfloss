@@ -345,10 +345,31 @@
 				"source.python keyword.operator.comparison.python"
 			],
 			"settings": {
+				"foreground": "#C5A3FF"
+			}
+		},
+		{
+			"name": "Python decorators",
+			"scope": [
+				"source.python meta.function.decorator.python",
+				"source.python entity.name.function.decorator.python",
+			],
+			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#C2FFDF"
 			}
 		},
+		{
+			"name": "Python function parameter annotation",
+			"scope": [
+				"source.python meta.function.parameters.python",
+				"source.python keyword.operator.unpacking.parameter.python",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#C2FFDF"
+			}
+		}
 	],
 	"colors": {
 		"editor.background": "#5A5475",
