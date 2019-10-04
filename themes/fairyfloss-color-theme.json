@@ -410,8 +410,11 @@
 		"titleBar.inactiveBackground": "#3a3553",
 		"titleBar.inactiveForeground": "#b9b9b9",
 		"terminal.ansiBrightBlack": "#C2FFDF",
+		"terminal.ansiBrightBlue": "#FFF352",
+		"terminal.ansiBrightCyan": "#F8F8F2",
+		"terminal.ansiBrightRed": "#FF857F",
+		"terminal.ansiGreen": "#AFECAD",
 		"terminal.ansiRed": "#FF857F",
-		"terminal.ansiGreen": "#AFECAD"
 	},
 	"name": "fairyfloss"
 }
