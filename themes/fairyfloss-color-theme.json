@@ -320,6 +320,56 @@
 				"foreground": "#FF857F"
 			}
 		},
+		{
+			"name": "Python docstring",
+			"scope": [
+				"source.python string.quoted.docstring.multi.python",
+			],
+			"settings": {
+				"foreground": "#E6C000"
+			}
+		},
+		{
+			"name": "Python function name that matches builtins",
+			"scope": [
+				"source.python meta.function.python support.function.builtin.python",
+			],
+			"settings": {
+				"foreground": "#FFF352"
+			}
+		},
+		{
+			"name": "Python logical operator",
+			"scope": [
+				"source.python keyword.operator.logical.python",
+				"source.python keyword.operator.comparison.python"
+			],
+			"settings": {
+				"foreground": "#C5A3FF"
+			}
+		},
+		{
+			"name": "Python decorators",
+			"scope": [
+				"source.python meta.function.decorator.python",
+				"source.python entity.name.function.decorator.python",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#C2FFDF"
+			}
+		},
+		{
+			"name": "Python function parameter annotation",
+			"scope": [
+				"source.python meta.function.parameters.python",
+				"source.python keyword.operator.unpacking.parameter.python",
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#C2FFDF"
+			}
+		}
 	],
 	"colors": {
 		"editor.background": "#5A5475",
@@ -329,6 +379,8 @@
 		"editorRuler.foreground": "#A8757B",
 		"editor.lineHighlightBackground": "#716799",
 		"editor.selectionBackground": "#8077A8",
+		"editor.findMatchHighlightBackground":"#AD5877",
+		"editor.findMatchBackground":"#464258",
 		"editorLineNumber.foreground": "#F8F8F2",
 		"sideBar.background": "#514C66",
 		"sideBar.dropBackground": "#464258",
@@ -381,8 +433,11 @@
 		"titleBar.inactiveBackground": "#3a3553",
 		"titleBar.inactiveForeground": "#b9b9b9",
 		"terminal.ansiBrightBlack": "#C2FFDF",
+		"terminal.ansiBrightBlue": "#FFF352",
+		"terminal.ansiBrightCyan": "#F8F8F2",
+		"terminal.ansiBrightRed": "#FF857F",
+		"terminal.ansiGreen": "#AFECAD",
 		"terminal.ansiRed": "#FF857F",
-		"terminal.ansiGreen": "#AFECAD"
 	},
 	"name": "fairyfloss"
 }
