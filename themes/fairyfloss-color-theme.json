@@ -432,7 +432,7 @@
 		{
 			"name": "Python docstring",
 			"scope": [
-				"source.python string.quoted.docstring.multi.python",
+				"source.python string.quoted.docstring.multi.python"
 			],
 			"settings": {
 				"foreground": "#E6C000"
@@ -441,7 +441,7 @@
 		{
 			"name": "Python function name that matches builtins",
 			"scope": [
-				"source.python meta.function.python support.function.builtin.python",
+				"source.python meta.function.python support.function.builtin.python"
 			],
 			"settings": {
 				"foreground": "#FFF352"
@@ -461,7 +461,7 @@
 			"name": "Python decorators",
 			"scope": [
 				"source.python meta.function.decorator.python",
-				"source.python entity.name.function.decorator.python",
+				"source.python entity.name.function.decorator.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -472,7 +472,7 @@
 			"name": "Python function parameter annotation",
 			"scope": [
 				"source.python meta.function.parameters.python",
-				"source.python keyword.operator.unpacking.parameter.python",
+				"source.python keyword.operator.unpacking.parameter.python"
 			],
 			"settings": {
 				"fontStyle": "italic",
