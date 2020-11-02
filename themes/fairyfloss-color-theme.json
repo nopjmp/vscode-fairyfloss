@@ -448,6 +448,31 @@
 				"fontStyle": "italic",
 				"foreground": "#C2FFDF"
 			}
+		},
+		// Infra specific changes from ardenasasvc
+		{
+			"scope": [
+				"string.unquoted.plain.out.yaml"
+			],
+			"settings": {
+				"foreground": "#dec0e2"
+			}
+		},
+		{
+			"scope": [
+				"string.quoted.double.yaml"
+			],
+			"settings": {
+				"foreground": "#C2FFDF"
+			}
+		},
+		{
+			"scope": [
+				"comment.line.number-sign.yaml"
+			],
+			"settings": {
+				"foreground": "#a186cf"
+			}
 		}
 	],
 	"semanticHighlighting": true
