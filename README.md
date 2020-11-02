@@ -1,13 +1,14 @@
 # fairyfloss
 All credit goes to sailorhg on github for their awesome theme [fairyfloss](https://github.com/sailorhg/fairyfloss)!✨
 
-I'm responsible for everything outside of the syntax general syntax highlighting.
+I'm responsible for everything outside of the general syntax highlighting.
 
 Languages with modifications specific to vscode:
 
 * Markdown
 * Java
 * Clojure
+* Python
 
 Please report any issues with syntax highlighting or ideas to improve anything!
 
