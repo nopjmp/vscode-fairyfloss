@@ -75,6 +75,9 @@
 		"editor.foreground": "#F8F8F2",
 		"editor.lineHighlightBackground": "#716799",
 		"editor.selectionBackground": "#8077A8",
+		"editor.findMatchBackground":"#8077A8", // Color of the current search match - same as selection
+		"editor.findMatchHighlightBackground":"#8077A800", // Transparent highlight of all search matches - we use a border instead.
+		"editor.findMatchHighlightBorder":"#F8F8F2", // Border color for all search matches
 		"editorLink.activeForeground": "#C990A5",
 		"editorLineNumber.foreground": "#F8F8F2",
 		"editorWhitespace.foreground": "#A8757B",
