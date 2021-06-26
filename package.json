@@ -11,11 +11,13 @@
         "Themes"
     ],
     "contributes": {
-        "themes": [{
-            "label": "fairyfloss",
-            "uiTheme": "vs-dark",
-            "path": "./themes/fairyfloss-color-theme.json"
-        }]
+        "themes": [
+            {
+                "label": "fairyfloss",
+                "uiTheme": "vs-dark",
+                "path": "./themes/fairyfloss-color-theme.json"
+            }
+        ]
     },
     "repository": {
         "type": "git",
